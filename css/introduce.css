@@ -1,0 +1,89 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+/* .page{
+  margin: 50px 0px 0px 100px;
+} */
+
+.header-wrapper{
+  width: 700px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.header-left{
+  font-size: 22px;
+}
+
+header img{
+  width: 700px;
+}
+
+.header-left h1{
+  color: #00ff00;
+  font-size: 40px;
+}
+
+.header-left a{
+  text-decoration: none;
+}
+
+main{
+  width: 100%;
+}
+
+.wrapper{
+  width: 700px;
+  height: 600px;
+  margin: 50px auto;
+}
+
+.page{
+  text-align: center;
+  margin: 10px auto;
+}
+
+.introduce{
+  float: right;
+}
+
+.myimg{
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+
+.clearfix:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.myimg img{
+  width: 400px;
+  height: 400px;
+}
+
+.introduce li{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.introduce p{
+  margin: 10px 0px 10px 0px;
+  font-size: 18px;
+}
+
+.footer-wrapper{
+  width: 100%;
+  text-align: center;
+}

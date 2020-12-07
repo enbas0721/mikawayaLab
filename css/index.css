@@ -1,0 +1,68 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+main{
+  width: 100%;
+}
+
+.wrapper{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.header{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.header h1{
+  color: #0000ff;
+  font-size: 40px;
+}
+
+.header img{
+  width: 700px;
+}
+
+.menu{
+  text-align: center;
+}
+
+.menu li{
+  list-style: none;
+  font-size: 32px;
+  margin: 20px 0px;
+}
+
+.menu a{
+  font-size: 22px
+}
+
+.menu img{
+  width: 100px;
+  margin: 50px auto;
+}
+
+.marq{
+  border: 7px solid;
+  padding: 10px;
+  border-color: #ff0000;
+  color: #0000ff;
+}
+
+.access-counter{
+  width: 100%;
+}
+
+.counter{
+  margin: 0 auto;
+}
